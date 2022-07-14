@@ -3,8 +3,8 @@
 <a href="menu-administrativo">Menu</a><br>
 <form style='display:inline' action="logout" method="POST">
     @csrf
-    <a href="#" onclick="this.closest('form').submit()">Cerrar Session</a>
+    <a href="#" onclick="this.closest('form').submit()">Cerrar Sesion</a>
 </form>
 @else
-<a href="login">Iniciar Session</a><br>
+<a href="login">Iniciar Sesion</a><br>
 @endauth
